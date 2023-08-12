@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+
+<!-- Mirrored from landunited.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Aug 2023 17:10:55 GMT -->
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<title>Land United | Hand-drawn sketches animated by your current time of day.</title>
+<meta name="description" content="Drawings animated by your current time of day with rain.">
+<meta name="keywords" content="rain, animation, rain sound, rain audio">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="index.html">
+  
+<!-- META Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="index.html">
+<meta property="og:title" content="Land United">
+<meta property="og:image" content="img/tw.jpg">
+<meta property="og:description" content="Drawings animated by your current time of day.">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="index.html">
+<meta name="twitter:title" content="Land United">
+<meta name="twitter:description" content="Drawings animated by your current time of day.">
+<meta name="twitter:image" content="../wonderlandy.netlify.app/img/tw.html">
+
+<link rel="icon" href="img/fav/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="img/fav/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="img/fav/favicon-96x96.png" sizes="96x96" type="image/png">
+<link rel="icon" href="img/fav/favicon-192x192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/fav/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon-180x180.png">
+
+
+ <!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600|VT323" rel="stylesheet">
+<link rel="stylesheet" href="../cdn.jsdelivr.net/npm/font-awesome%404.7.0/css/font-awesome.min.css">
+
+ <!-- External CSS -->
+<link rel="stylesheet" href="island/style.css">
+
+
+<!-- analytics -->
+<!-- <script defer data-domain="landunited.com" src="https://plausible.io/js/plausible.js"></script> -->
+
+</head>
+<body>
+
+<audio id="sound1" src="https://ambicular.com/sounds/hipster/birds160.mp3" autoplay loop></audio>
+<audio id="sound2" src="https://ambicular.com/sounds/rain/rainbest160thunder.mp3" loop></audio>
+<audio id="music" src="sounds/passion-no-vocal.mp3" loop></audio>
+
+
+
+		<svg class="hidden">
+			<symbol id="icon-keyboard" viewBox="0 0 100 70">
+				<title>keyboard</title>
+				<path d="M 60.94,1.83 39.22,1.83 C 36.71,1.83 34.67,3.86 34.67,6.376 L 34.67,28.1 C 34.67,30.61 36.71,32.65 39.22,32.65 L 60.94,32.65 C 63.45,32.65 65.5,30.61 65.5,28.1 L 65.5,6.376 C 65.5,3.86 63.45,1.83 60.94,1.83 Z M 44.79,18.63 50.08,11.74 55.37,18.63 Z" />
+				<path d="M 60.86,36.75 39.14,36.75 C 36.63,36.75 34.59,38.79 34.59,41.3 L 34.59,63.02 C 34.59,65.53 36.63,67.57 39.14,67.57 L 60.86,67.57 C 63.38,67.57 65.41,65.53 65.41,63.02 L 65.41,41.3 C 65.42,38.79 63.38,36.75 60.86,36.75 Z M 50.08,57.45 44.79,50.55 55.37,50.55 Z" />
+				<path d="M 95.45,36.75 73.73,36.75 C 71.22,36.75 69.18,38.79 69.18,41.3 L 69.18,63.02 C 69.18,65.53 71.22,67.57 73.73,67.57 L 95.45,67.57 C 97.97,67.57 100,65.53 100,63.02 L 100,41.3 C 100,38.79 97.97,36.75 95.45,36.75 Z M 83.4,57.45 83.4,46.86 90.3,52.16 Z" />
+				<path d="M 26.27,36.75 4.55,36.75 C 2.037,36.75 0,38.79 0,41.3 L 0,63.02 C 0,65.53 2.037,67.57 4.55,67.57 L 26.27,67.57 C 28.78,67.57 30.82,65.53 30.82,63.02 L 30.82,41.3 C 30.82,38.79 28.78,36.75 26.27,36.75 Z M 16.69,57.45 9.79,52.16 16.69,46.86 Z" />
+			</symbol>
+			<symbol id="icon-keyboard2" viewBox="0 0 100 70">
+				<title>keyboard2</title>
+				<path d="M 60.94,1.83 39.22,1.83 C 36.71,1.83 34.67,3.86 34.67,6.376 L 34.67,28.1 C 34.67,30.61 36.71,32.65 39.22,32.65 L 60.94,32.65 C 63.45,32.65 65.5,30.61 65.5,28.1 L 65.5,6.376 C 65.5,3.86 63.45,1.83 60.94,1.83 Z M 44.79,18.63 50.08,11.74 55.37,18.63 Z" opacity="0.3" />
+				<path d="M 60.86,36.75 39.14,36.75 C 36.63,36.75 34.59,38.79 34.59,41.3 L 34.59,63.02 C 34.59,65.53 36.63,67.57 39.14,67.57 L 60.86,67.57 C 63.38,67.57 65.41,65.53 65.41,63.02 L 65.41,41.3 C 65.42,38.79 63.38,36.75 60.86,36.75 Z M 50.08,57.45 44.79,50.55 55.37,50.55 Z" opacity="0.3" />
+				<path d="M 95.45,36.75 73.73,36.75 C 71.22,36.75 69.18,38.79 69.18,41.3 L 69.18,63.02 C 69.18,65.53 71.22,67.57 73.73,67.57 L 95.45,67.57 C 97.97,67.57 100,65.53 100,63.02 L 100,41.3 C 100,38.79 97.97,36.75 95.45,36.75 Z M 83.4,57.45 83.4,46.86 90.3,52.16 Z" />
+				<path d="M 26.27,36.75 4.55,36.75 C 2.037,36.75 0,38.79 0,41.3 L 0,63.02 C 0,65.53 2.037,67.57 4.55,67.57 L 26.27,67.57 C 28.78,67.57 30.82,65.53 30.82,63.02 L 30.82,41.3 C 30.82,38.79 28.78,36.75 26.27,36.75 Z M 16.69,57.45 9.79,52.16 16.69,46.86 Z" />
+			</symbol>
+			<symbol id="icon-keyboard3" viewBox="0 0 100 70">
+				<title>keyboard3</title>
+				<path d="M 60.94,1.83 39.22,1.83 C 36.71,1.83 34.67,3.86 34.67,6.376 L 34.67,28.1 C 34.67,30.61 36.71,32.65 39.22,32.65 L 60.94,32.65 C 63.45,32.65 65.5,30.61 65.5,28.1 L 65.5,6.376 C 65.5,3.86 63.45,1.83 60.94,1.83 Z M 44.79,18.63 50.08,11.74 55.37,18.63 Z" />
+				<path d="M 60.86,36.75 39.14,36.75 C 36.63,36.75 34.59,38.79 34.59,41.3 L 34.59,63.02 C 34.59,65.53 36.63,67.57 39.14,67.57 L 60.86,67.57 C 63.38,67.57 65.41,65.53 65.41,63.02 L 65.41,41.3 C 65.42,38.79 63.38,36.75 60.86,36.75 Z M 50.08,57.45 44.79,50.55 55.37,50.55 Z" />
+				<path d="M 95.45,36.75 73.73,36.75 C 71.22,36.75 69.18,38.79 69.18,41.3 L 69.18,63.02 C 69.18,65.53 71.22,67.57 73.73,67.57 L 95.45,67.57 C 97.97,67.57 100,65.53 100,63.02 L 100,41.3 C 100,38.79 97.97,36.75 95.45,36.75 Z M 83.4,57.45 83.4,46.86 90.3,52.16 Z" opacity="0.3" />
+				<path d="M 26.27,36.75 4.55,36.75 C 2.037,36.75 0,38.79 0,41.3 L 0,63.02 C 0,65.53 2.037,67.57 4.55,67.57 L 26.27,67.57 C 28.78,67.57 30.82,65.53 30.82,63.02 L 30.82,41.3 C 30.82,38.79 28.78,36.75 26.27,36.75 Z M 16.69,57.45 9.79,52.16 16.69,46.86 Z" opacity="0.3" />
+			</symbol>
+		</svg>
+		
+<!-- <h2>Name</h2> -->
+
+<canvas id="c" style="width:100%;height:100%;"></canvas>
+
+<div id="sndpos" onclick="document.getElementById('sound1').pause(); document.getElementById('sound2').pause();">
+<i class="fa fa-volume-down"></i>
+</div>
+
+<div id="clockpos">
+<div id="clock" style="display: inline-block; font-size:50px;"></div>
+<i class="fa fa-bars" style="display: inline-block; margin-left: 10px; cursor: pointer;" onclick="showInfo(help); document.getElementById('music').play();"></i>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<nav class="demos">
+					<svg class="icon icon--keyboard"><use xlink:href="#icon-keyboard"></use></svg>
+					<a class="demo1">SPACE</a>
+					<!-- <a class="demo" href=""></a>
+					<a class="demo" href=""></a> -->
+				</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="stuff">
+ <!-- Share buttons by Cubecamp.ru  www.cubecamp.ru/articles/share/cubecamp.html -->
+<span class="share-btn" data-url="https://landunited.com" data-title="Land united" data-desc="Hand-drawn sketches animated by your current time of day.">
+	<a style="padding-right:0; border-right:none;" data-id="fb"><i class="fa fa-facebook fa-fw"></i></a>
+	<a data-id="tw"><i class="fa fa-twitter fa-fw"></i></a>
+</span>
+
+  <a> </a>
+  <a id="license" onclick="showInfo(this)">License</a>
+  <!-- <a href="https://defonic.com" target="_blank" rel="follow" title="Ambient noise generator">+ Sounds</a> -->
+  <a id="help" onclick="showInfo(this)">Controls</a>
+</div>
+
+
+
+
+
+
+<div class="hidden box" id="help_box">
+
+<button onclick="hideInfo(); document.getElementById('music').pause();"><i class="fa fa-times"></i></button>
+<div class="box_content">
+<h3>Controls</h3>
+
+
+
+<div>				
+<p style="display: inline-block;"><svg class="icon icon--keyboard2"><use xlink:href="#icon-keyboard2"></use></svg>Time travel</p>
+<p style="display: inline-block; margin-left: 150px;"><svg class="icon icon--keyboard2"><use xlink:href="#icon-keyboard3"></use></svg>Rain intensity</p>
+</div>
+
+<div>
+<div class="demo2" style="display: inline-block;">SPACE</div>
+<p style="display: inline-block; margin-left: 10px;">Scene change</p>
+</div>
+
+<br>
+<p>On the phone, swipe from left to right to make it rain!</p>
+
+
+<br>
+<p>The screensaver takes into account your current time and simulates different states corresponding to the minutes of a day, for ex. the "living" entities go to sleep during the night.</p>
+
+<!-- <br><br><a href="https://defonic.com" target="_blank" rel="follow" title="Ambient noise generator" style="text-decoration: none;"> &#9654; More Sounds &#9664; </a> -->
+
+<br><br>
+<!-- <h2>Spread the words!</h2> -->
+<!-- Share buttons by Cubecamp.ru  www.cubecamp.ru/articles/share/cubecamp.html -->
+<div id="shar" class="share-btn" data-url="https://landunited.com" data-title="Land United" data-desc="Hand-drawn sketches animated by your current time of day.">
+	<!-- <a data-id="vk"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-vk fa-stack-1x fa-inverse"></i></span></a>
+	<a data-id="mail"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></a> -->
+	<a data-id="fb"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+	<a data-id="in"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a>	
+	<a data-id="tw"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>	
+</div>
+<br>
+
+
+</div>
+
+</div>
+
+<div class="hidden box" id="license_box">
+
+<button onclick="hideInfo()"><i class="fa fa-times"></i></button>
+<div class="box_content">
+<h3>License and attributions</h3>
+
+	<p>Software (Html, Javascript) from "Easter island v4" is licensed under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license.</a> Copyright (c) 2018 by Sebastian E. Garcia &frasl; Changes were made.</p>
+	<p>Art assets (images) from "Easter island v4" is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> Legal code: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank">CC BY-NC-SA 4.0</a> Copyright (c) 2018 by Sebastian E. Garcia &frasl; Changes were made.</p>
+	<p><a href="https://codepen.io/arcsin/pen/bxyLby" target="_blank">Easter island v4</a> is created by Sebastian E. Garcia and licensed under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license.</a> &frasl; Changes were made.</p>
+	
+    <p><a href="https://www.freesound.org/people/RHumphries/sounds/2532/">"rbh thunder_10.wav" by RHumphries </a>is licensed under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0 </a> &frasl; Changes were made.</p>
+    <p><a href="https://www.freesound.org/people/RHumphries/sounds/2523/">"rbh thunder storm.wav" by RHumphries </a>is licensed under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0 </a> &frasl; Changes were made.</p>
+    <p><a href="https://www.freesound.org/people/RHumphries/sounds/2535/">"rbh thunder_13.wav" by RHumphries </a>is licensed under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0 </a> &frasl; Changes were made.</p>
+    <p><a href="https://www.freesound.org/people/RHumphries/sounds/2529/">"rbh thunder_07.wav" by RHumphries </a>is licensed under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0 </a> &frasl; Changes were made.</p>
+    <p><a href="https://www.freesound.org/people/RHumphries/sounds/2527/">"rbh thunder_05.wav" by RHumphries </a>is licensed under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0 </a> &frasl; Changes were made.</p>
+
+<p><a href="https://www.freesound.org/people/inchadney/sounds/56611/">"Morning in the country.WAV" by inchadney</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0 </a> &frasl; Changes were made.</p>
+	
+	<p><a href="http://www.cubecamp.ru/articles/share/cubecamp.html" target="_blank">Share buttons</a> is created by by Cubecamp.ru</p>
+	<p><a href="https://fontawesome.com/v4.7.0/">Font Awesome</a> is created by Font Awesome and licensed under <a href="https://fontawesome.com/v4.7.0/license/">Fonts: SIL OFL 1.1, Code: MIT License</a>.</p>
+	   
+	<p><a href="https://www.freesound.org/people/RHumphries/sounds/2532/" target="_blank">"rbh thunder_10.wav" by RHumphries</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &frasl; Changes were made.</p>
+
+    <p>Huge thanks to Mary Lou (Manoela Ilic) from <a href="http://tympanus.net/codrops/">Codrops</a> for the code and inspiration.</p>
+    
+    <p>Thanks to <a href="https://www.w3.org/wiki/HTML/Elements/audio" target="_blank">W3.org</a> for the code of audio control.</p>
+    <p>Huge thanks to <a href="https://css-tricks.com/author/chriscoyier/" target="_blank">Chris Coyier from Css-tricks.com</a> for the code and helpful articles.</p>
+    <br>
+    <br>
+    <p>All rights reserved</p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="2d-vertex-shader-particles" type="x-shader/x-vertex">
+
+precision highp float;
+precision highp int;
+
+// vertex shader inputs:
+attribute vec3  aVertexPosition;
+attribute vec3  aParticleInitPosition;
+attribute float aParticleVelocity;
+attribute float aParticleType;
+attribute vec3  aParticleDestination;
+attribute vec3  aParticleTranslation;
+attribute float aParticleLifetime;
+attribute vec4  aParticleColor;
+
+uniform mat4 uMVMatrix;
+uniform mat4 uPMatrix; 
+uniform vec3 uCameraTranslation;
+uniform float uTimeDelta;
+uniform float uDelta;
+uniform float uRainDelta;
+varying float vParticleType;
+//varying float vParticleOpacity;
+varying vec4  vParticleColor;
+varying vec3  vLightWeighting;
+
+uniform vec3 uPointLighting1Location;
+uniform vec3 uPointLighting2Location;
+// global ambient light
+// setting it to 1.0.1.0.1.0 we have full lighting
+// setting it to 0.0.0.0.0.0 will have light only from the point light
+uniform highp vec3 uAmbientLightColorIntensity;
+uniform highp vec3 uAmbientLightColor;
+
+//https://stackoverflow.com/questions/12964279/whats-the-origin-of-this-glsl-rand-one-liner
+float hashRand(vec2 co){
+  return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
+}
+float hashRand(float o){
+  vec2 co=vec2(o,o);
+  return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
+}
+float hashRand(float o, float o2){
+  vec2 co=vec2(o,o2);
+  return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
+}
+
+void main(void){
+
+  vParticleType=aParticleType; //pass particle type to fragment
+  vec3 mumu=aParticleTranslation;
+  vParticleColor=aParticleColor;
+
+  if (aParticleType<0.9){ //raindrops
+    vParticleColor.a=0.6;
+
+    //by adding the camera y position to the particles we can fill the screen regardless of the height at which we are
+
+    float localTimeDelta=mod(uTimeDelta*aParticleVelocity,aParticleInitPosition.y); //since 0 is in the center of the screen
+    vec3 particleMovement=vec3(uCameraTranslation.x-8.0,-localTimeDelta+aParticleInitPosition.y+uCameraTranslation.y-3.0,uCameraTranslation.z-25.0);
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition+aParticleTranslation+particleMovement-uCameraTranslation,1.0);
+  }
+
+  if (aParticleType>0.9 && aParticleType<1.9){ //raindrop collisions on terrain
+    float localTimeDelta=0.0;
+    float velocity=1.0;
+    if (aParticleVelocity!=0.0)
+      velocity=aParticleVelocity;
+    if (aParticleLifetime>0.0){
+      localTimeDelta=mod(uTimeDelta,1.0/velocity)/(1.0/velocity);
+    }
+
+    vec3 particleMovement=mix(aParticleInitPosition,aParticleDestination,mod(localTimeDelta,aParticleLifetime));
+    float distance=aParticleDestination.x-aParticleInitPosition.x;
+    if (distance!=0.0){
+
+      particleMovement.y=sin(mix(0.0,6.28,(particleMovement.x-aParticleInitPosition.x)/distance))/380.0;
+    }
+
+    float randValue=floor(uTimeDelta*velocity);
+    particleMovement.z=hashRand(vec2(randValue,randValue));
+    particleMovement.x=hashRand(vec2(randValue,randValue));
+    //2018-09-24 12:29:48
+    //raindrops y offset ++
+    particleMovement+=vec3(uCameraTranslation.x-8.0,0.2,uCameraTranslation.z-16.0);
+    vParticleColor.a=1.0-localTimeDelta;
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition+aParticleTranslation+particleMovement-uCameraTranslation,1.0);
+  }
+
+  if (aParticleType>1.9 && aParticleType<2.9){ //raindrop collisions on entities
+
+    float slowNess=1.0;
+    if (aParticleVelocity!=0.0)
+      slowNess=aParticleVelocity;
+    float speedDelta=slowNess*uDelta;
+    float ms=mod(uTimeDelta,speedDelta);
+    float norm=ms/speedDelta;
+    float breathDeformLimit=aParticleLifetime;
+    ms=sin(norm*6.2831852)*breathDeformLimit;
+
+    vec3 entityMovement=aParticleInitPosition;
+    float particleVelocity=aParticleDestination.x;
+    float attachedEntityBehavior=aParticleDestination.y;
+    float entityIsFloatingOnWater=aParticleDestination.z;
+    float particleSpeedDelta=particleVelocity*uDelta; //float particleSpeedDelta=0.01*uDelta;
+    float particleMs=mod(uTimeDelta,particleSpeedDelta);
+    float particleNorm=particleMs/particleSpeedDelta;
+    if (attachedEntityBehavior>1.9){
+      //living being
+      entityMovement.xy-=ms;
+      entityMovement.y+=sin(particleNorm*6.2831852)*breathDeformLimit/7.5;
+    }else{
+      //vegetation
+      entityMovement.x-=ms;
+      entityMovement.y+=sin(particleNorm*6.2831852)*breathDeformLimit/8.0;
+    }
+    if (entityIsFloatingOnWater>0.9){ //add vertical movement to particle to match floating on water movement
+
+      //WIRED G9YjdnHuAK
+      float onWaterYMovementSlowness=0.3;
+      float onWaterYMovementDistance=0.05;
+      float ms2=mod(uTimeDelta,onWaterYMovementSlowness*uDelta);
+      float norm2=ms2/(onWaterYMovementSlowness*uDelta);
+      ms2=sin(norm2*6.2831852)*onWaterYMovementDistance;
+      entityMovement.y+=ms2;
+    }
+    float xTranslation=entityMovement.x;
+
+    vec3 particleMovement=vec3(xTranslation,entityMovement.y,0.0);
+
+    if (vParticleColor.a<2.0)
+      vParticleColor.a=mix(0.0,1.0-particleNorm,uRainDelta);
+    else
+      vParticleColor.a=1.0;
+
+    //add random x component, particleNorm
+    float randValue=floor(uTimeDelta/particleSpeedDelta);
+    particleMovement.x=(entityMovement.x+hashRand(vec2(randValue,randValue))/20.0)+(mix(0.0,hashRand(-randValue,randValue),particleNorm)/20.0);
+
+    gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition+aParticleTranslation+particleMovement-uCameraTranslation,1.0);
+  }
+
+  //add light to particles
+  vec3 pointLighting1ColorIntensity=vec3(1.0,1.0,1.0);//light color intensity of point light 1 (sun)
+  vec3 pointLighting2ColorIntensity=vec3(0.5,0.5,0.6);//light color intensity of point light 2 (moon) a little bluish
+  //we must determine the direction of the light:
+  vec3 vectorNormal=vec3(0.0,1.0,0.0); //in our simple geometry just consider a fixed normal
+  vec3 light1Direction = normalize(uPointLighting1Location  - aVertexPosition);
+  vec3 light2Direction = normalize(uPointLighting2Location - aVertexPosition);
+
+  float directionalLight1Weighting = max(dot(vectorNormal, light1Direction), 0.0);
+  float directionalLight2Weighting = max(dot(vectorNormal, light2Direction), 0.0);
+
+  vec3 sunWhiteLight  = pointLighting1ColorIntensity
+                        * directionalLight1Weighting; //  * uAmbientLightColor -> do not consider ambient color for rain
+  vec3 moonWhiteLight = pointLighting2ColorIntensity
+                        * directionalLight2Weighting; //  * uAmbientLightColor -> do not consider ambient color for rain
+
+  //our world has two mobile points of light in total
+  vLightWeighting = uAmbientLightColorIntensity + sunWhiteLight  * vParticleColor.xyz; //sunlight
+  vLightWeighting+= uAmbientLightColorIntensity + moonWhiteLight * vParticleColor.xyz; //moonlight
+
+}
+
+</script>
+
+<script id="2d-fragment-shader-particles" type="x-shader/x-fragment">
+precision highp float;
+precision highp int;
+varying float vParticleType;
+//varying float vParticleOpacity;
+varying vec4  vParticleColor;
+varying vec3  vLightWeighting;
+
+void main(void){
+
+  gl_FragColor = vParticleColor*vec4(vLightWeighting*2.0,1.0);
+
+}
+</script>
+
+<script id="2d-vertex-shader" type="x-shader/x-vertex">
+
+precision highp float;
+precision highp int;
+
+// vertex shader inputs:
+attribute vec3 aVertexPosition;
+attribute vec2 aTextureCoord;
+attribute vec3 aEntityTranslation;
+attribute vec4 aEntityColor;
+
+attribute vec4 aEntityProperties;
+
+
+uniform mat4  uMVMatrix;
+uniform mat4  uPMatrix;
+
+uniform vec3 uCameraTranslation;
+
+uniform vec3 uPointLighting1Location;
+uniform vec3 uPointLighting2Location;
+
+// global ambient light
+// setting it to 1.0.1.0.1.0 we have full lighting
+// setting it to 0.0.0.0.0.0 will have light only from the point light
+uniform highp vec3 uAmbientLightColorIntensity;
+uniform highp vec3 uAmbientLightColor;
+
+varying vec2  vTextureCoord;
+varying vec3  vLightWeighting;
+varying vec3  vLightWeightingWhiteLight;
+varying float vTextureAlpha;
+varying float vTextureLayerIndex;
+
+void main(void){
+
+  vec3 pointLighting1ColorIntensity=vec3(1.0,1.0,1.0);
+  vec3 pointLighting2ColorIntensity=vec3(0.5,0.5,0.6);
+
+  gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition+aEntityTranslation-uCameraTranslation,1.0);
+  vTextureCoord = aTextureCoord;
+
+  vTextureAlpha       =aEntityColor.a;
+  vTextureLayerIndex  =aEntityProperties[1];
+  float combinedProperties=aEntityProperties[3];
+                           //1
+  bool hasShadowMitigation=((combinedProperties>0.9 && combinedProperties<1.9)); //clouds
+                           //10
+  bool isLightEmitter     =(combinedProperties>9.9 && combinedProperties<10.9);  //stars and satellites
+                           //20
+  bool isFlippedX         =(combinedProperties>19.9);                            //entities
+
+  if (isFlippedX){
+    //aEntityProperties receives at aEntityProperties[0]
+    //the normalized x coordinate of the texture from the texture atlas
+    //and aEntityProperties[0] the normalized x1 coordinates (x + width) of the texture
+    vTextureCoord.x = aEntityProperties[2]-aTextureCoord.x+aEntityProperties[0];
+  }
+
+  vec3 pointLighting1Location=uPointLighting1Location;
+  vec3 pointLighting2Location=uPointLighting2Location;
+  if (hasShadowMitigation){
+    //Let's raise the light for the current entity more than the rest,
+    //this allows us to have illuminated objects on the sky while the others are not
+    pointLighting1Location[1]+=100.0;  //sun light
+    pointLighting2Location[1]+=20.0;   //moon light
+  }
+
+  if (!isLightEmitter){
+    //the entity does not emit its own light
+
+    //we must determine the direction of the light:
+    vec3 vectorNormal=vec3(0.0,1.0,0.0); //in our simple geometry just consider a fixed normal
+    vec3 light1Direction = normalize(pointLighting1Location - aEntityTranslation - aVertexPosition);
+    vec3 light2Direction = normalize(pointLighting2Location - aEntityTranslation - aVertexPosition);
+
+    float directionalLight1Weighting = max(dot(vectorNormal, light1Direction), 0.0);
+    float directionalLight2Weighting = max(dot(vectorNormal, light2Direction), 0.0);
+
+    vec3 sunWhiteLight  = pointLighting1ColorIntensity
+                          * directionalLight1Weighting * (uAmbientLightColor+0.1);
+    //+0.1 explained ->
+    //give a little shove to the color to have white <-> #fffff during zenith
+
+    vec3 moonWhiteLight = pointLighting2ColorIntensity
+                          * directionalLight2Weighting * uAmbientLightColor;
+
+    //our world has two mobile points of light in total
+    vLightWeighting = uAmbientLightColorIntensity + sunWhiteLight  * aEntityColor.xyz; //sunlight
+    vLightWeighting+= uAmbientLightColorIntensity + moonWhiteLight * aEntityColor.xyz; //moonlight
+
+    vLightWeightingWhiteLight = uAmbientLightColorIntensity + sunWhiteLight;
+    vLightWeightingWhiteLight+= uAmbientLightColorIntensity + moonWhiteLight;
+
+  }else{
+    //if the entity emits light do not apply color variation
+    vLightWeighting=vec3(1.0,1.0,1.0);
+  }
+
+}
+</script>
+
+<script id="2d-fragment-shader" type="x-shader/x-fragment">
+precision highp float;
+precision highp int;
+
+uniform sampler2D uTextureSampler0; //ref: https://www.khronos.org/opengl/wiki/Sampler_(GLSL)
+uniform sampler2D uTextureSampler1;
+uniform sampler2D uTextureSampler2;
+uniform sampler2D uTextureSampler3;
+uniform sampler2D uTextureSampler4;
+uniform sampler2D uTextureSampler5;
+uniform sampler2D uTextureSampler6;
+uniform sampler2D uTextureSampler7;
+//2018-04-02 15:54:41 - in the tests I did on mobile it seems that there are problems beyond the 8 textures
+
+//the texCoords passed in from the vertex shader.
+//gluniform doc -> ref: https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glUniform.xhtml
+varying vec2  vTextureCoord;
+varying vec3  vLightWeighting;
+varying vec3  vLightWeightingWhiteLight;
+varying float vTextureAlpha;
+varying float vTextureLayerIndex;
+uniform float uRainDelta;
+//float rainDelta=1.0;
+
+void main(void){
+
+  vec4 color;
+
+  // We use a float range to determine the layer
+  // and not a specific number to allow correct management on mobile browsers
+
+  if (vTextureLayerIndex==0.0)                               //select atlas 0
+    color=texture2D(uTextureSampler0,vec2(vTextureCoord.s,vTextureCoord.t));
+  else if (vTextureLayerIndex>0.9 && vTextureLayerIndex<1.9) //atlas 1
+    color=texture2D(uTextureSampler1,vec2(vTextureCoord.s,vTextureCoord.t));
+  else if (vTextureLayerIndex>1.9 && vTextureLayerIndex<2.9) //atlas 2
+    color=texture2D(uTextureSampler2,vec2(vTextureCoord.s,vTextureCoord.t));
+  else if (vTextureLayerIndex>2.9 && vTextureLayerIndex<3.9) //atlas 3
+    color=texture2D(uTextureSampler3,vec2(vTextureCoord.s,vTextureCoord.t));
+  else if (vTextureLayerIndex>3.9 && vTextureLayerIndex<4.9) //atlas 4
+    color=texture2D(uTextureSampler4,vec2(vTextureCoord.s,vTextureCoord.t));
+  else if (vTextureLayerIndex>4.9 && vTextureLayerIndex<5.9) //atlas 5
+    color=texture2D(uTextureSampler5,vec2(vTextureCoord.s,vTextureCoord.t));
+  else if (vTextureLayerIndex>5.9 && vTextureLayerIndex<6.9) //atlas 6
+    color=texture2D(uTextureSampler6,vec2(vTextureCoord.s,vTextureCoord.t));
+  else if (vTextureLayerIndex>6.9 && vTextureLayerIndex<7.9) //atlas 7
+    color=texture2D(uTextureSampler7,vec2(vTextureCoord.s,vTextureCoord.t));
+
+  vec3 LightWeighting;
+  vec3 fragColor;
+
+  if (color.r>.1 && color.g<.05 && color.b<.05){
+    float resetRed=color.r+color.g+color.b;
+    vec3  colorGray=vec3(resetRed,resetRed,resetRed);
+    fragColor=colorGray.rgb;
+    LightWeighting=vLightWeightingWhiteLight;
+    //gl_FragColor = vec4(colorGray.rgb*vLightWeightingWhiteLight,vTextureAlpha*color.a);
+  }else{
+
+    fragColor=color.rgb;
+    LightWeighting=vLightWeighting;
+
+  }
+
+  if (uRainDelta>0.0){
+    //fade light color
+    float gray=(LightWeighting.r+LightWeighting.g+LightWeighting.b)/3.0;
+    float r=mix(LightWeighting.r,gray,uRainDelta);
+    float g=mix(LightWeighting.g,gray,uRainDelta);
+    float b=mix(LightWeighting.b,gray,uRainDelta);
+    LightWeighting=vec3(r,g,b);
+
+    //fade entity color
+    gray=(fragColor.r+fragColor.g+fragColor.b)/3.0;
+    r=mix(fragColor.r,gray,uRainDelta);
+    g=mix(fragColor.g,gray,uRainDelta);
+    b=mix(fragColor.b,gray,uRainDelta);
+    fragColor=vec3(r,g,b);
+  }
+
+  gl_FragColor = vec4(fragColor*LightWeighting,vTextureAlpha*color.a);
+
+}
+</script>
+
+
+
+<script src="island/sebastian.glmatrix.js"></script>
+<script  src="island/index.js"></script>
+<script type="text/javascript" src="js/share.js"></script>
+
+</body>
+
+
+<!-- Mirrored from landunited.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Aug 2023 17:11:04 GMT -->
+</html>
